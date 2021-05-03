@@ -354,7 +354,54 @@ input[type=submit]:hover{
     transition: .5s;
 }
 
+/*Count Down */
 
+  
+  .countdown-area{
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+
+  
+  #countdown ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  #countdown ul li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .message {
+    font-size: 4rem;
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji {
+    padding: 0 .25rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }
 
   
  
